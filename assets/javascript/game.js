@@ -14,6 +14,8 @@ var remainingLetters = randWord.length;
 
 document.querySelector("#word").innerHTML = (answerArray.join(" "));
 document.querySelector("#guessesRemaining").innerHTML = (" "+maxGuesses);
+document.querySelector("#win").innerHTML = (" "+0);
+    document.querySelector("#failure").innerHTML = (" "+0);
 
 
 document.onkeyup = function(event) {
@@ -78,29 +80,4 @@ document.onkeyup = function(event) {
   }
   
 
-  /*if(guessesArray===null){
-                guessesArray.push(userInput);
-            } else {
-                for(var z = 0;z<guessesArray.length;z++){
-                    if(guessesArray[i]!==userInput){
-                        guessesArray.push(userInput);
-                        break;
-                    }
-                }
-
-
-
-
-                if(guessesArray!==null){
-        for(var z=0;z<guessesArray.length;z++){
-            if(guessesArray[z]!==userInput){
-                guessesArray.push(userInput);
-                maxGuesses--;
-                break;
-            }
-        }
-    } else{
-        guessesArray.push(userInput);
-    }
-            }*/
-
+  

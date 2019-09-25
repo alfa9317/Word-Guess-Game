@@ -6,15 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|Montserrat|Notable|Russo+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <h1>Press any key to get started!</h1>
-    <h2>Wins:<span id="win"> 0</span></h2>
-    <h2>Failures:<span id="failure"> 0</span></h2>
-    <h2>Current word: <span id="word"></span></h2>
-    <h2>Guesses remaining: <span id="guessesRemaining"> 0</span></h2>
-    <h2>Letters already guessed: <span id="usedLetters"></span></h2>
+    <h1 id="title">Hangman!</h1>
+    <h2 class="instructions">Press any key to get started!</h2>
+    <div id="container">
+            <div id="win-lose">
+                    <h3>Wins:<span id="win"></span></h3>
+                    <h3>Fail:<span id="failure"></span></h3>
+            </div>
+            <h3 id="currentWord">Current word: <span id="word"></span></h3>
+            <div id="status">
+                    <h3>Guesses remaining: <span id="guessesRemaining"></span></h3>
+                    <h3>Letters already guessed: <span id="usedLetters"></span></h3>
+            </div> 
+    </div>
+    
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

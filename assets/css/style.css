@@ -1,0 +1,86 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Notable', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Russo One', sans-serif;
+*/
+
+
+body{
+    text-align: center;
+}
+#title{
+    margin-bottom: 1em;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em;
+    font-size: 36px;
+    font-family: 'Bangers', cursive;
+}
+
+.instructions{
+    margin-bottom: 1em;
+    color: black;
+    padding: 1em;
+    font-size: 36px;
+    font-family: 'Russo One', sans-serif;
+}
+
+#container{
+    border: solid 1px black;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#win-lose{
+    margin-bottom: 1em;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em;
+    font-size: 26px;
+    font-family: 'Notable', sans-serif;
+}
+
+#currentWord{
+    margin-bottom: 1em;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#status{
+    margin-bottom: 1em;
+    background-color: black;
+    color: antiquewhite;
+    padding: 1em;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#win{
+    padding: 1em;
+}
+
+#failure{
+    padding: 1em;
+}
+
+#guessesRemaining{
+    margin: 4rem 2rem;
+    
+}
+#usedLetters{
+    margin: 4rem 2rem;
+}
+
+
+
+
+
+
