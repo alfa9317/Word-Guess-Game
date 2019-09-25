@@ -15,8 +15,7 @@ var remainingLetters = randWord.length;
 document.querySelector("#word").innerHTML = (answerArray.join(" "));
 document.querySelector("#guessesRemaining").innerHTML = (" "+maxGuesses);
 document.querySelector("#win").innerHTML = (" "+0);
-    document.querySelector("#failure").innerHTML = (" "+0);
-
+document.querySelector("#failure").innerHTML = (" "+0);
 
 document.onkeyup = function(event) {
     
@@ -26,7 +25,7 @@ document.onkeyup = function(event) {
 
     for(var j=0;j<randWord.length;j++){
         if (randWord[j]===userInput){
-            if(answerArray!==userInput){
+            if(answerArray[j]!==userInput){
                 answerArray[j]=userInput;
                 remainingLetters--;
             }
@@ -35,7 +34,7 @@ document.onkeyup = function(event) {
             cont++;
         }
     }
-
+    //alert("cont"+cont+" arrLength"+randWord.length);
     if(cont===randWord.length){
         if(guessesArray.length!==0){
             for(var z=0;z<guessesArray.length;z++){
@@ -66,6 +65,7 @@ document.onkeyup = function(event) {
     document.querySelector("#guessesRemaining").innerHTML = (" "+maxGuesses);
     document.querySelector("#win").innerHTML = (" "+win);
     document.querySelector("#failure").innerHTML = (" "+lose);
+    
 
   };
 
