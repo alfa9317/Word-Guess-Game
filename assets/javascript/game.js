@@ -26,8 +26,10 @@ document.onkeyup = function(event) {
 
     for(var j=0;j<randWord.length;j++){
         if (randWord[j]===userInput){
-            answerArray[j]=userInput;
-            remainingLetters--;
+            if(answerArray!==userInput){
+                answerArray[j]=userInput;
+                remainingLetters--;
+            }
             
         } else{
             cont++;
