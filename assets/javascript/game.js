@@ -1,6 +1,6 @@
 
 
-var words = ["bulbasaur","ivysaur","venusaur","charmander","charmeleon","charizard","squirtle","wartortle","blastoise","caterpie","metapod","butterfree","weedle","kakuna","beedrill","pidgey","pidgeotto","pidgeot"];
+var words = ["perro","gato","rinoceronte","tiburon","tigre","zorrillo","ornitorrinco","tortuga","orangutan","mariposa","leon","zebra","lechuza","elefante","venado","borrego","conejo","perico"];
 
 var score = 0;
 var maxGuesses = 12;
