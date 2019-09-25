@@ -34,7 +34,7 @@ document.onkeyup = function(event) {
             cont++;
         }
     }
-    //alert("cont"+cont+" arrLength"+randWord.length);
+    
     if(cont===randWord.length){
         if(guessesArray.length!==0){
             for(var z=0;z<guessesArray.length;z++){
